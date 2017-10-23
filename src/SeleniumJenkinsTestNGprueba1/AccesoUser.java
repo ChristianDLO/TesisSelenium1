@@ -15,7 +15,7 @@ String exePath  = "C:\\Users\\chrixdlo\\workspace\\TesisSelenium\\chromedriver\\
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("http://localhost:81/controlescolarphp/login1.php");
-		System.out.println("ingresar con  el nuevo login registrado");
+		System.out.println("ingresar login registrado");
 		driver.findElement(By.name("loginProfe")).click();
 	    driver.findElement(By.name("textfield")).clear();
 	    driver.findElement(By.name("textfield")).sendKeys("121h8076");
